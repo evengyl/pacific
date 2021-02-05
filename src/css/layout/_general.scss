@@ -1,0 +1,29 @@
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+
+    
+}
+.wrapper{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.on{
+    
+        color: #fff !important;
+   
+}
+@media screen and (max-width: 1280px)
+{
+    .wrapper{
+        width: 100%;
+        
+    }
+}

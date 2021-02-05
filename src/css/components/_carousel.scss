@@ -1,0 +1,49 @@
+.container {
+      position: relative;
+      height: 1000px;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .swiper-pagination {
+      position: absolute;
+      text-align: center;
+      transition: .3s opacity;
+      transform: translate3d(0,0,0);
+      z-index: 10;
+      bottom: 50px;
+      left: 50%;
+     
+  }
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    opacity: .2;
+    
+}
+.swiper-pagination .swiper-pagination-bullet{
+  margin-right: 10px;
+  background: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 1280px)
+{
+
+  .container {
+    position: relative;
+    height: 800px;
+  }
+
+}

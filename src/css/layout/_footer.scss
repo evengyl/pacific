@@ -1,0 +1,39 @@
+.icones{
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    padding: 40px;
+}
+#twitter-icon, #vimeo-icon, #instagram-icon{
+    width: 35px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    background-color: transparent;
+    fill:#ffffff;
+}
+#instagram-icon{
+    margin: 0 10px;
+}
+#twitter-icon:hover, #vimeo-icon:hover, #instagram-icon:hover{
+   
+    background-color: #fff;
+    fill:#000;
+}
+
+.information{
+    background-color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+    padding: 80px;
+    p{
+        color: #fff;
+        margin-top: 0;
+        font-size: 12px;
+    }
+    h3, a{
+        color:rgba(255, 255, 255, 0.397);
+       text-transform:none;
+    }
+
+    a{
+        text-decoration: underline;
+    }
+}
