@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function(){
             
             nav[i].classList.add('on');
           }
-          if(blocBottomPosInDom <= 0) {
+          if((blocBottomPosInDom <= 0) || (blocTopPosInDom > 100)) {
             nav[i].classList.remove('on');
           }
 
